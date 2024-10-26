@@ -5,5 +5,15 @@
 @layer base {
   body {
     @apply font-custom bg-primary text-white leading-loose; /* Applying the custom font from Tailwind config */
+     
+  }
+  .h1 {
+    @apply text-[48px] md:text-[68px] leading-[1.1] font-semibold;
+  }
+  .h2 {
+    @apply text-[36px] md:text-[52px] leading-[1.1] font-semibold;
+  }
+  .h3 {
+    @apply text-[20px] md:text-[28px] leading-[1.1] font-semibold;
   }
 }
