@@ -27,7 +27,7 @@ module.exports = {
 
 		  primary:"#1c1c22",
 		  accent:{
-			// DEFAULT :"#88ff99",
+
 			DEFAULT:"#00ffff",
 			hover:"00e187",
 		  }
