@@ -24,8 +24,12 @@ const about = {
       fieldValue: " 3+ Years",
     },
     {
-      fieldName: "Skype",
-      fieldValue: "luke.01",
+      fieldName: "Email",
+      fieldValue: "ajaybabu0046@gmail.com",
+    },
+    {
+      fieldName: "Address",
+      fieldValue: "Agra U.P.",
     },
     {
       fieldName: "Nationality",
@@ -186,11 +190,23 @@ const resume = () => {
       className="min-h-[80vh] flex items-center justify-center py-12 xl:py-0"
     >
       <div className="container  mx-auto">
+      {/* <h3 className="text-4xl">Why hire me?</h3>
+      <p>Lorem ipsum dolor sit. </p>
+      <p>amet consectetur adipisicing elit.</p> */}
+        
         <Tabs
-          defaultValue="experience"
+          defaultValue="about"
           className="flex flex-col md:flex-row gap-[60px]"
         >
+
+
+        
+          
+
           <TabsList className="flex flex-col w-full max-w-[300px] mx-auto xl:mx-0 gap-6">
+          <h3 className="text-4xl text-white">Why hire me?</h3>
+      <p className="text-white/60">Lorem ipsum dolor sit.amet consectetur adipisicing elit </p>
+ 
             <TabsTrigger value="experience">Experience</TabsTrigger>
             <TabsTrigger value="education">Education</TabsTrigger>
             <TabsTrigger value="skills">Skills</TabsTrigger>
@@ -262,7 +278,7 @@ const resume = () => {
               </div>
             </TabsContent>
             <TabsContent value="skills" className=" w-full h-full">
-              <div className="flex flex-col gap-[30px] text-center md:text-left">
+              <div className="flex flex-col  gap-[30px] text-center md:text-left">
                 <div>
                   <h3 className="text-4xl font-bold ">
                     {skills.title}
