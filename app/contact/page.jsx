@@ -50,7 +50,7 @@ const contact = () => {
         <div className="flex flex-col md:flex-row gap-[30px]">
           <div className="md:h-[54%] order-1 xl:order:none">
             <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
-              <h3 className="text-4xl text-accent"> Let's work together</h3>
+              <h3 className="text-4xl text-accent">{`Let's work together`} </h3>
               <p className="text-white/60">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Temporibus, commodi? Non praesentium amet ipsa officiis natus
