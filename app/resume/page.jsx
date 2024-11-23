@@ -190,23 +190,20 @@ const resume = () => {
       className="min-h-[80vh] flex items-center justify-center py-12 xl:py-0"
     >
       <div className="container  mx-auto">
-      {/* <h3 className="text-4xl">Why hire me?</h3>
+        {/* <h3 className="text-4xl">Why hire me?</h3>
       <p>Lorem ipsum dolor sit. </p>
       <p>amet consectetur adipisicing elit.</p> */}
-        
+
         <Tabs
           defaultValue="about"
           className="flex flex-col md:flex-row gap-[60px]"
         >
-
-
-        
-          
-
           <TabsList className="flex flex-col w-full max-w-[300px] mx-auto xl:mx-0 gap-6">
-          <h3 className="text-4xl text-white">Why hire me?</h3>
-      <p className="text-white/60">Lorem ipsum dolor sit.amet consectetur adipisicing elit </p>
- 
+            <h3 className="text-4xl text-white">Why hire me?</h3>
+            <p className="text-white/60">
+              Lorem ipsum dolor sit.amet consectetur adipisicing elit{" "}
+            </p>
+
             <TabsTrigger value="experience">Experience</TabsTrigger>
             <TabsTrigger value="education">Education</TabsTrigger>
             <TabsTrigger value="skills">Skills</TabsTrigger>
@@ -248,7 +245,7 @@ const resume = () => {
             </TabsContent>
 
             <TabsContent value="education" className=" w-full">
-            <div className="flex flex-col  gap-[30px] text-center md:text-left">
+              <div className="flex flex-col  gap-[30px] text-center md:text-left">
                 <h3 className="text-4xl font-bold">{education.title}</h3>
                 <p className="max-w-[600px] text-white/60 mx-auto md:mx-0">
                   {education.description}
@@ -280,60 +277,56 @@ const resume = () => {
             <TabsContent value="skills" className=" w-full h-full">
               <div className="flex flex-col  gap-[30px] text-center md:text-left">
                 <div>
-                  <h3 className="text-4xl font-bold ">
-                    {skills.title}
-                  </h3>
+                  <h3 className="text-4xl font-bold ">{skills.title}</h3>
                   <p className="max-w-[600px] text-white/60 mx-auto  md:mx-0">
                     {skills.description}
                   </p>
                 </div>
                 <ul className="grid grid-cols-3 sm:grid-cols-1 md:grid-cols-4 md:gap-[30px] gap-4">
-                  {skills.skillList.map((skill,index)=>{
-                    return <li key={index} >
-                      <TooltipProvider delayDuration={100}>
-                        <Tooltip>
-                          <TooltipTrigger className="w-full h-[150px] bg-[#232329] rounded-xl flex justify-center items-center group">
-                            <div className="text-6xl group-hover:text-accent transition-all duration-300">
-                              {skill.icon}
-                            </div>
-                          </TooltipTrigger>
-                          <TooltipContent>
-                            <p className="capitalize">{skill.name}</p>
-                          </TooltipContent>
-                        </Tooltip>
-                      </TooltipProvider>
-                    </li>
-
+                  {skills.skillList.map((skill, index) => {
+                    return (
+                      <li key={index}>
+                        <TooltipProvider delayDuration={100}>
+                          <Tooltip>
+                            <TooltipTrigger className="w-full h-[150px] bg-[#232329] rounded-xl flex justify-center items-center group">
+                              <div className="text-6xl group-hover:text-accent transition-all duration-300">
+                                {skill.icon}
+                              </div>
+                            </TooltipTrigger>
+                            <TooltipContent>
+                              <p className="capitalize">{skill.name}</p>
+                            </TooltipContent>
+                          </Tooltip>
+                        </TooltipProvider>
+                      </li>
+                    );
                   })}
                 </ul>
-
               </div>
-           
             </TabsContent>
-            <TabsContent value="about" className=" w-full text-center md:text-left">
+            <TabsContent
+              value="about"
+              className=" w-full text-center md:text-left"
+            >
               <div className="flex flex-col gap-[30px]">
-                <h3 className="text-4xl font-bold">
-                  {about.title}
-                </h3>
-                <p className="max-w-[600px] text-white/60  mx-auto  md:mx-0">{about.description}</p>
+                <h3 className="text-4xl font-bold">{about.title}</h3>
+                <p className="max-w-[600px] text-white/60  mx-auto  md:mx-0">
+                  {about.description}
+                </p>
                 <ul className="grid grid-cols-1 md:grid-cols-2 gap-y-6 max-w-[620px] mx-auto md:mx-0 ">
-                  {about.info.map((item,index)=>{
-                    return <li key={index} className="flex justify-center items-center md:justify-start gap-4 ">
-                      <span className="text-white/60">
-                        {item.fieldName}
-                      
-                      </span>
-                      <span className="text-xl">
-                        {item.fieldValue}
-                      
-                      </span>
-
-                    </li>
+                  {about.info.map((item, index) => {
+                    return (
+                      <li
+                        key={index}
+                        className="flex justify-center items-center md:justify-start gap-4 "
+                      >
+                        <span className="text-white/60">{item.fieldName}</span>
+                        <span className="text-xl">{item.fieldValue}</span>
+                      </li>
+                    );
                   })}
                 </ul>
-
               </div>
-             
             </TabsContent>
           </div>
         </Tabs>
