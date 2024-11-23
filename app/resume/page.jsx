@@ -1,6 +1,9 @@
 "use client";
 
-import { FaHtml5, FaCss3, FaJs, FaReact, FaNodeJs } from "react-icons/fa";
+import { FaHtml5, FaCss3, FaJs, FaReact, FaNodeJs,FaPython, FaAws } from "react-icons/fa";
+import { BiLogoDjango } from "react-icons/bi";
+import { BiLogoPostgresql } from "react-icons/bi";
+import { BiLogoMongodb } from "react-icons/bi";
 
 import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 
@@ -9,7 +12,7 @@ import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 const about = {
   title: "About me ",
   description:
-    "  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam perferendis libero veniam id dicta rem, asperiores, aliquam consectetur similique nisi ullam modi quia cupiditate dolor deleniti labore natus velit vel",
+    "I have been working as a full-stack developer, and I absolutely love it! In this role, I am responsible for building and maintaining both the frontend and backend of web applications, which I find incredibly exciting and rewarding.",
   info: [
     {
       fieldName: "Name",
@@ -52,39 +55,31 @@ const experince = {
   icon: "/assets/resume/badge.svg",
   title: "My Experience",
   description:
-    "  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam perferendis libero veniam id dicta rem, asperiores, aliquam consectetur similique nisi ullam modi quia cupiditate dolor deleniti labore natus velit vel",
+    "  With a strong background in development, I’ve honed my skills in creating efficient solutions and overcoming complex challenges. My expertise spans multiple technologies, and I am driven by the pursuit of excellence in every project I undertake.",
 
   items: [
     {
-      company: "Tech Solution Pvt Ltd",
-      position: "Full stack devloper",
-      duration: "2012- Present",
+      company: "DigiPanda Consulting Pvt. Ltd",
+      position: "FullStack Developer",
+      duration: "May/2024 - Present",
     },
     {
-      company: "Tech Solution Pvt Ltd",
-      position: "Full stack devloper",
-      duration: "2012- Present",
+      company: "The Tech Ravens",
+      position: "FullStack Developer",
+      duration: "Feb/2022 - Apr/2024",
     },
     {
-      company: "Tech Solution Pvt Ltd",
-      position: "Full stack devloper",
-      duration: "2012- Present",
+      company: "Radiant Infonet Pvt. Ltd",
+      position: "Python Developer",
+      duration: "Apr/2021 - Jan/2022",
     },
     {
-      company: "Tech Solution Pvt Ltd",
-      position: "Full stack devloper",
-      duration: "2012- Present",
+      company: "Radiant Infonet Pvt. Ltd",
+      position: "Internship",
+      duration: "Dec/2020 - Mar/2021",
     },
-    {
-      company: "Tech Solution Pvt Ltd",
-      position: "Full stack devloper",
-      duration: "2012- Present",
-    },
-    {
-      company: "Tech Solution Pvt Ltd",
-      position: "Full stack devloper",
-      duration: "2012- Present",
-    },
+  
+  
   ],
 };
 
@@ -94,34 +89,24 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "My  Education",
   description:
-    "  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam perferendis libero veniam id dicta rem, asperiores, aliquam consectetur similique nisi ullam modi quia cupiditate dolor deleniti labore natus velit vel",
-
+    "I hold a Bachelor's degree in Computer Applications where I gained a solid foundation in software development and problem-solving. ",
   items: [
     {
-      instition: "online course ",
-      degree: " full satck web devlopment course",
-      duration: "2024",
+      instition: "Dr. Bhim Rao Ambedkar University, Agra",
+      degree: "Bachelor of Computer Application (BCA)",
+      duration: "2017 - 2020",
     },
     {
-      instition: "online course ",
-      degree: " full satck web devlopment course",
-      duration: "2024",
+      instition: "Mahendra Singh Inter College",
+      degree: "Intermediate(XII)",
+      duration: "2017",
     },
     {
-      instition: "online course ",
-      degree: " full satck web devlopment course",
-      duration: "2024",
+      instition: "Mahendra Singh Inter College",
+      degree: "HighSchool(X)",
+      duration: "2015",
     },
-    {
-      instition: "online course ",
-      degree: " full satck web devlopment course",
-      duration: "2024",
-    },
-    {
-      instition: "online course ",
-      degree: " full satck web devlopment course",
-      duration: "2024",
-    },
+    
   ],
 };
 
@@ -130,19 +115,19 @@ const education = {
 const skills = {
   title: "My Skills",
   description:
-    "  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam perferendis libero veniam id dicta rem, asperiores, aliquam consectetur similique nisi ullam modi quia cupiditate dolor deleniti labore natus velit vel",
+    " I have a strong foundation in web development, backend systems, and database management. My expertise lies in problem-solving, software design, and quickly adapting to new technologies, ensuring I can tackle diverse and challenging projects efficiently.",
   skillList: [
     {
       icon: <FaHtml5 />,
-      name: "html 5",
+      name: "Html 5",
     },
     {
       icon: <FaCss3 />,
-      name: "css 3",
+      name: "Css 3",
     },
     {
       icon: <FaJs />,
-      name: "javascript",
+      name: "Javascript",
     },
     {
       icon: <FaReact />,
@@ -161,9 +146,27 @@ const skills = {
       name: "node.js",
     },
     {
-      icon: <FaNodeJs />,
-      name: "node.js",
+      icon: <FaPython />, //python
+      name: "Python",
     },
+    {
+      icon: <BiLogoDjango />, //django
+      name: "Django",
+    },
+    {
+      icon: < FaAws />,//aws
+      name: "Aws",
+    },
+    {
+      icon: <BiLogoPostgresql />, //django
+      name: "Postgresql",
+    },
+    {
+      icon: < BiLogoMongodb />,//aws
+      name: "Mongodb",
+    },
+
+    
   ],
 };
 
@@ -200,8 +203,8 @@ const resume = () => {
         >
           <TabsList className="flex flex-col w-full max-w-[300px] mx-auto xl:mx-0 gap-6">
             <h3 className="text-4xl text-white">Why hire me?</h3>
-            <p className="text-white/60">
-              Lorem ipsum dolor sit.amet consectetur adipisicing elit{" "}
+            <p className="text-white/60 text-sm">
+            I bring strong technical skills, problem-solving passion, and a commitment to quality, delivering effective solutions and adapting to challenges.
             </p>
 
             <TabsTrigger value="experience">Experience</TabsTrigger>
@@ -278,7 +281,7 @@ const resume = () => {
               <div className="flex flex-col  gap-[30px] text-center md:text-left">
                 <div>
                   <h3 className="text-4xl font-bold ">{skills.title}</h3>
-                  <p className="max-w-[600px] text-white/60 mx-auto  md:mx-0">
+                  <p className="max-w-[600px] text-white/60 mx-auto md:mx-0 mt-6">
                     {skills.description}
                   </p>
                 </div>
