@@ -20,17 +20,17 @@ const info = [
   {
     icon: <FaPhoneAlt />,
     title: "Phone",
-    description: "(+40) 321 654 987",
+    description: "(+91) 8267 93 2261",
   },
   {
     icon: <FaEnvelope />,
     title: "Email",
-    description: "your@gmail.com",
+    description: "ajaybabu0046@gmail.com",
   },
   {
     icon: <FaMapMarkerAlt />,
     title: "Address",
-    description: "code corner ,tech town 234 ",
+    description: "Noida Sector 62  ",
   },
 ];
 
