@@ -9,28 +9,28 @@ const servicesList = [
     num: "01",
     title: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae placeat illum deleniti id!",
+      "Creating responsive and dynamic websites tailored to user needs, ensuring optimal performance and scalability!",
     href: "",
   },
   {
     num: "02",
     title: "API Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae placeat illum deleniti id!",
+      "Designing robust and secure APIs to enable seamless communication between systems and applications.",
     href: "",
   },
   {
     num: "03",
     title: "UI/UX Design",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae placeat illum deleniti id!",
+      "Crafting intuitive interfaces and exceptional user experiences that prioritize usability and aesthetics.!",
     href: "",
   },
   {
     num: "04",
     title: "Devops Services",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae placeat illum deleniti id!",
+      "Streamlining development workflows with efficient CI/CD pipelines, cloud integration, and system monitoring.!",
     href: "",
   },
 ];

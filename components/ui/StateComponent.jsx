@@ -3,12 +3,12 @@ import CountUp from "react-countup";
 
 const numStates = [
     {
-        num: 5,
-        text: "Years of experience",
+        num: 3,
+        text: "Years of Experience",
     },
     {
-        num: 26,
-        text: "Projects completed",
+        num: 20,
+        text: "Projects Completed",
     },
     {
         num: 8,
@@ -16,7 +16,7 @@ const numStates = [
     },
     {
         num: 500,
-        text: "Code commits",
+        text: "Code Commits",
     },
 ];
 

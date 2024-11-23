@@ -23,10 +23,10 @@ import WorkSliderBtns from "@/components/ui/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "frontend",
-    title: "project 1",
+    category: "FullStack",
+    title: "JiveBird",
     description:
-      "Lorem ipsum dolor sit.amet consectetur adipisicing eli Lorem ipsum dolor sit.amet consectetur adipisicing eli",
+      "JiveBird is a digital platform that allows users to create and send personalized greetings and gifts.",
 
     stack: [
       {
@@ -36,21 +36,24 @@ const projects = [
         name: "Css 3",
       },
       {
-        name: "javascript ",
+        name: "React.js",
+      },
+      {
+        name: "Django",
       },
     
     
     ],
-    image: "/assets/work/thumb1.png",
-    live: "https://ajayportfolioapp.vercel.app/",
-    github: "https://ajayportfolioapp.vercel.app/",
+    image: "/assets/work/jivebird.png",
+    live: "https://www.jivebird.com/",
+    github: "https://www.jivebird.com/",
   },
   {
     num: "02",
-    category: "frontend",
-    title: "project 1",
+    category: "Frontend",
+    title: "Onzeauto",
     description:
-      "Lorem ipsum dolor sit.amet consectetur adipisicing eli Lorem ipsum dolor sit.amet consectetur adipisicing eli",
+    "OnzeAuto is one of the fastest growing providers of electric shared cars in the Netherlands.",
 
     stack: [
       {
@@ -59,22 +62,22 @@ const projects = [
       {
         name: "Css 3",
       },
+     
       {
-        name: "javascript ",
+        name: "React.js",
       },
     
     ],
-    image: "/assets/work/thumb2.png",
-    live: "https://ajayportfolioapp.vercel.app/",
-    github: "https://ajayportfolioapp.vercel.app/",
+    image: "/assets/work/onzeauto.png",
+    live: "https://www.onzeauto.com/",
+    github: "https://aanmelden.onzeauto.com/subscriptions?poolgroup_name=%22Samen%20Slim%20Rijden%20Castricum%22&subscriptionType=76330000004592133&lang=en",
   },
   {
     num: "03",
-    category: "frontend",
-    title: "project 1",
+    category: "FullStack",
+    title: "IndiaBookofRecords",
     description:
-      "Lorem ipsum dolor sit.amet consectetur adipisicing eli Lorem ipsum dolor sit.amet consectetur adipisicing eli",
-
+      "India Book of Records, registered with Government of India, trusted by millions of Indian. We publish record book each year so your ability get recognition.",
     stack: [
       {
         name: "Html 5 ",
@@ -83,13 +86,16 @@ const projects = [
         name: "Css 3",
       },
       {
-        name: "javascript ",
+        name: "javascript",
+      },
+      {
+        name: "Node.js",
       },
     
     ],
-    image: "/assets/work/thumb3.png",
-    live: "https://ajayportfolioapp.vercel.app/",
-    github: "https://ajayportfolioapp.vercel.app/",
+    image: "/assets/work/ibr.png",
+    live: "https://indiabookofrecords.in/",
+    github: "https://indiabookofrecords.in/",
   },
   {
     num: "04",
@@ -136,12 +142,15 @@ const Work = () => {
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row md:gap-[30px]">
           <div className="w-full md:w-[50%] md:h-[460px] flex flex-col md:justify-between order-2 md:order-none">
-            <div className="flex flex-col gap-[30px] h-[50%]">
+            <div className="flex flex-col gap-[22px] h-[50%]">
               <div className="text-8xl leading-none font-extralight text-transparent text-outline">
                 {project.num}
               </div>
-              <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
+              <h3 className="text-[32px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
                 {project.category} project
+              </h3>
+              <h2 className="text-[42px] text-accent">
+                {project.title}
               </h2>
               <p className="text-white/60">{project.description}</p>
               <ul className="flex gap-4">
