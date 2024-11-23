@@ -87,7 +87,7 @@ const projects = [
       },
     
     ],
-    image: "/assets/work/thum3.png",
+    image: "/assets/work/thumb3.png",
     live: "https://ajayportfolioapp.vercel.app/",
     github: "https://ajayportfolioapp.vercel.app/",
   },
