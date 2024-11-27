@@ -97,29 +97,7 @@ const projects = [
     live: "https://indiabookofrecords.in/",
     github: "https://indiabookofrecords.in/",
   },
-  {
-    num: "04",
-    category: "frontend",
-    title: "project 1",
-    description:
-      "Lorem ipsum dolor sit.amet consectetur adipisicing eli Lorem ipsum dolor sit.amet consectetur adipisicing eli",
-
-    stack: [
-      {
-        name: "Html 5 ",
-      },
-      {
-        name: "Css 3",
-      },
-      {
-        name: "javascript ",
-      },
-     
-    ],
-    image: "/assets/work/thumb1.png",
-    live: "https://ajayportfolioapp.vercel.app/",
-    github: "https://ajayportfolioapp.vercel.app/",
-  },
+  
 ];
 
 const Work = () => {
