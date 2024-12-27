@@ -31,8 +31,9 @@ const StateComponent = () => {
                             end={item.num} 
                             duration={5} 
                             delay={2} 
+                            suffix="+" 
                             className="text-4xl md:text-6xl font-extrabold text-white" 
-                        />+
+                        />
                         <p className="leading-snug text-white/80 text-sm mt-2 ">{item.text}</p>
                     </div>
                 ))}
