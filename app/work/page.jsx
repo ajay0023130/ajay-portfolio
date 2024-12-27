@@ -150,6 +150,33 @@ const projects = [
     github: "https://ajayportfolioapp.vercel.app/",
   },
 
+   {
+    num: "06",
+    category: "F",
+    title: "FullStack ",
+    description:
+      "FinnMonk is a leading fintech firm that empowers businesses and individuals to make informed investment decisions with expert insights and advanced analytics, offering unbiased recommendations on stocks.",
+    stack: [
+      {
+        name: "shadcn ui",
+      },
+      {
+        name: "Tailwind Css",
+      },
+      {
+        name: "next js",
+      },
+      {
+        name: "Django(DRF)",
+      },
+     
+    
+    ],
+    image: "/assets/work/finnmonk.png",
+    live: "https://www.finnmonk.com.au/",
+    github: "https://www.finnmonk.com.au/",
+  },
+
   
 ];
 
