@@ -123,6 +123,33 @@ const projects = [
     github: "https://sailaxproperties.com/",
   },
 
+  {
+    num: "05",
+    category: "Frontend",
+    title: "Personal Portfolio ",
+    description:
+      "personal portfolio website built using Next.js, ShadCN UI, and Framer Motion. It aims to showcase the developer's skills, projects, and professional achievements in an interactive and visually appealing way.",
+    stack: [
+      {
+        name: "shadcn ui",
+      },
+      {
+        name: "Tailwind Css",
+      },
+      {
+        name: "next js",
+      },
+      {
+        name: "framer motion",
+      },
+     
+    
+    ],
+    image: "/assets/work/portfolio.png",
+    live: "https://ajayportfolioapp.vercel.app/",
+    github: "https://ajayportfolioapp.vercel.app/",
+  },
+
   
 ];
 
