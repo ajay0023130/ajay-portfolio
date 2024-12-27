@@ -30,7 +30,7 @@ const servicesList = [
     num: "04",
     title: "Devops Services",
     description:
-      "Streamlining development workflows with efficient CI/CD pipelines, cloud integration, and system monitoring.",
+      "Streamlining development workflows with efficient CI/CD pipelines, cloud infrastructure integration, and comprehensive system monitoring to ensure continuous delivery and performance optimization.",
     href: "",
   },
 ];
