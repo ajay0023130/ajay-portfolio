@@ -3,7 +3,7 @@ import CountUp from "react-countup";
 
 const numStates = [
     {
-        num: 3,
+        num: 4,
         text: "Years of Experience",
     },
     {
