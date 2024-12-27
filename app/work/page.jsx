@@ -39,7 +39,7 @@ const projects = [
         name: "React.js",
       },
       {
-        name: "Django",
+        name: "Django(DRF)",
       },
     
     
@@ -97,6 +97,32 @@ const projects = [
     live: "https://indiabookofrecords.in/",
     github: "https://indiabookofrecords.in/",
   },
+    {
+    num: "04",
+    category: "FullStack",
+    title: "Sailax Properties",
+    description:
+      "The company provides insights into the Dubai real estate market and offers services for both property buyers and sellers.",
+    stack: [
+      {
+        name: "Html 5 ",
+      },
+      {
+        name: "Tailwind Css",
+      },
+      {
+        name: "next js",
+      },
+      {
+        name: "Django(DRF)",
+      },
+    
+    ],
+    image: "/assets/work/sailax.png",
+    live: "https://sailaxproperties.com/",
+    github: "https://sailaxproperties.com/",
+  },
+
   
 ];
 
