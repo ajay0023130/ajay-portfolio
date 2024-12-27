@@ -21,17 +21,17 @@ const info = [
   {
     icon: <FaPhoneAlt />,
     title: "Phone",
-    description: "(+40) 321 654 987",
+    description: "(+91) 8267 9322 61",
   },
   {
     icon: <FaEnvelope />,
     title: "Email",
-    description: "your@gmail.com",
+    description: "ajaybabu0046@gmail.com",
   },
   {
     icon: <FaMapMarkerAlt />,
     title: "Address",
-    description: "code corner ,tech town 234 ",
+    description: "Agra , U.P. ",
   },
 ];
 
@@ -53,10 +53,7 @@ const contact = () => {
             <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
               <h3 className="text-4xl text-accent">{`Let's work together`} </h3>
               <p className="text-white/60">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Temporibus, commodi? Non praesentium amet ipsa officiis natus
-                eaque illum eveniet, qui, minus ullam ducimus voluptates dolorem
-                unde consectetur rem accusantium nostrum?
+                {`I believe in creating solutions that help you achieve your goals. Whether it’s building a website, developing an API, designing user interfaces, or optimizing your workflow with DevOps, I’m here to collaborate with you to turn your ideas into reality. Let's embark on this journey together, where creativity, technology, and precision meet to deliver outstanding results.`}
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <Input type="firstname " placeholder="Firstname" />
