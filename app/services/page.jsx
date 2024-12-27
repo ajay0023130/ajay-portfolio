@@ -23,14 +23,14 @@ const servicesList = [
     num: "03",
     title: "UI/UX Design",
     description:
-      "Crafting intuitive interfaces and exceptional user experiences that prioritize usability, aesthetics, and accessibility, enhancing user satisfaction",
+      "Crafting intuitive interfaces and exceptional user experiences that prioritize usability, aesthetics, and accessibility, enhancing user satisfaction.",
     href: "",
   },
   {
     num: "04",
     title: "Devops Services",
     description:
-      "Streamlining development workflows with robust CI/CD pipelines, seamless cloud integration, and advanced system monitoring for continuous delivery and optimized performance",
+      "Streamlining development workflows with robust CI/CD pipelines, seamless cloud integration, and advanced system monitoring for continuous delivery and optimized performance.",
     href: "",
   },
 ];
