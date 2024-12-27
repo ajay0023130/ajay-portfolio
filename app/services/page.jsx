@@ -9,28 +9,28 @@ const servicesList = [
     num: "01",
     title: "Web Development",
     description:
-      "Creating responsive and dynamic websites tailored to user needs, ensuring optimal performance and scalability!",
+      "Creating responsive and dynamic websites tailored to your needs, ensuring optimal performance, scalability, and an engaging user experience.",
     href: "",
   },
   {
     num: "02",
     title: "API Development",
     description:
-      "Designing robust and secure APIs to enable seamless communication between systems and applications.",
+      "Designing robust, secure, and scalable APIs that enable seamless communication between systems and applications, ensuring reliability and performance.",
     href: "",
   },
   {
     num: "03",
     title: "UI/UX Design",
     description:
-      "Crafting intuitive interfaces and exceptional user experiences that prioritize usability and aesthetics.!",
+      "Crafting intuitive interfaces and exceptional user experiences that prioritize usability, aesthetics, and accessibility, enhancing user satisfaction",
     href: "",
   },
   {
     num: "04",
     title: "Devops Services",
     description:
-      "Streamlining development workflows with efficient CI/CD pipelines, cloud integration, and system monitoring.!",
+      "Streamlining development workflows with efficient CI/CD pipelines, cloud integration, and system monitoring.",
     href: "",
   },
 ];
