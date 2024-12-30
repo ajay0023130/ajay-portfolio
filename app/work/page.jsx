@@ -152,8 +152,8 @@ const projects = [
 
    {
     num: "06",
-    category: "F",
-    title: "FullStack ",
+    category: "FullStack ",
+    title: "FinnMonk",
     description:
       "FinnMonk is a leading fintech firm that empowers businesses and individuals to make informed investment decisions with expert insights and advanced analytics, offering unbiased recommendations on stocks.",
     stack: [
