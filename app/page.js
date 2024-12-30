@@ -25,8 +25,8 @@ const Homepage = () => {
               {`Hello I’m`} <br />
               <span className="text-accent">Ajay Babu</span>
             </h1>
-            <span className="text-xl order-2 md:order-none mt-6"> Sr. Python Fullstack Developer</span>
-            <p className="max-w-[500px] mb-9 mt-3 text-white/90">
+            <span className="text-xl order-2 md:order-none mt-10"> Sr. Python Fullstack Developer</span>
+            <p className="max-w-[500px] mb-9 mt-2 text-white/90">
             I excel in crafting elegant digital experiences and I am proficient in various programming languages and modern  technologies.
             </p>
 
