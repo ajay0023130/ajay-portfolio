@@ -60,12 +60,12 @@ const experince = {
   items: [
     {
       company: "DigiPanda Consulting Pvt. Ltd",
-      position: "FullStack Developer",
+      position: "Sr. Python FullStack Developer",
       duration: "May/2024 - Present",
     },
     {
       company: "The Tech Ravens",
-      position: "FullStack Developer",
+      position: "Python FullStack Developer",
       duration: "Feb/2022 - Apr/2024",
     },
     {
